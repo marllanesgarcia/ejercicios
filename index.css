@@ -1,6 +1,6 @@
 body {
 
-    background-color: rgba(80, 46, 112, 0.815);
+    background-color: rgb(207, 166, 245);
 
 }
 
@@ -14,7 +14,8 @@ body {
     padding-right: 30px;
     justify-content: space-between;
     border-style: dashed;
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(21, 3, 27, 0.678);
+    border-radius: 12%;
 
 }
 
@@ -39,12 +40,35 @@ body {
 
 }
 
+#menu {
+
+    justify-content: center ;
+    display: block;
+
+}
+
+.h2 {
+
+    font-size: large;
+    background-color: rgba(153, 59, 241, 0.753);
+    color: rgb(9, 10, 12);
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.p  {
+
+    color: rgb(0, 0, 0);
+    font-size:large;
+    font-style: unset;
+    padding-left: 2%;
+    padding-right: 8%;
+    text-align: justify;
 
 
-#contenido {
-    min-height:400px;
-    display:flex;
-    flex-direction:row;
 }
 
 #portaFoto {
@@ -98,6 +122,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    align-items: center ;
+    justify-content: center ;
 
 }
