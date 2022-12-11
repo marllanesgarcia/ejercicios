@@ -12,19 +12,25 @@ body {
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
-
+    justify-content: space-between;
+    border-style: dashed;
+    background-color: rgba(0, 0, 0, 0.664);
 
 }
 
 .title {
 
     color: aliceblue;
-    font-style:oblique;
+    font-style: oblique;
     font-size: 35px;
-    border-style: dashed;
-    border-color: rgba(0, 0, 0, 0.603);
-    background-color:black ;
     align-items: center;
+}
+
+#gif {
+
+    width: 60px;
+    height: 60px;
+
 }
 
 #portaFoto {
