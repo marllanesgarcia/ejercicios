@@ -1,29 +1,70 @@
+body {
 
-        #portaFoto {
-            width: 50vw;
-            height: 50vh;
-            background-color: rgb(249, 182, 255);
-            display: block;
-        }
+    background-color: rgba(80, 46, 112, 0.815);
 
-        #laFoto {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+}
+
+#titulo {
+
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 
 
-        @media screen and (orientation:landscape) {
-            #portaFoto {
-                max-width: 1920px;
-                max-height: 1280px;
-            }
-        }
+}
 
-        @media screen and (orientation:portrait) {
-            #portaFoto {
-                max-width: 800px;
-                max-height: 1200px;
-            }
-        }
- 
+.title {
+
+    color: aliceblue;
+    font-style:oblique;
+    font-size: 35px;
+    border-style: dashed;
+    border-color: rgba(0, 0, 0, 0.603);
+    background-color:black ;
+    align-items: center;
+}
+
+#portaFoto {
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(249, 182, 255);
+    display: block;
+}
+
+#laFoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#foto {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+@media screen and (orientation:landscape) {
+    #portaFoto {
+        max-width: 1920px;
+        max-height: 1280px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    #portaFoto {
+        max-width: 800px;
+        max-height: 1200px;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
