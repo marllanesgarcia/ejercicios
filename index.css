@@ -29,7 +29,7 @@ body {
 
 .nombre {
 
-    color:aliceblue;
+    color: aliceblue;
     font-style: oblique;
 }
 
@@ -40,11 +40,41 @@ body {
 
 }
 
+li {
+
+    display: inline-block;
+    width: 70px;
+    height: 2em;
+    color: aliceblue;
+    background-color: rgba(44, 7, 56, 0.678);
+    border-radius: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 0px 2px 2px 0px;
+    border-color: gray;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: large;
+    box-shadow: 5px 5px rgba(54, 52, 52, 0.692);
+
+}
+
+
+#seleccionado {
+
+    box-shadow: 5px 5px rgba(54, 52, 52, 0.692) inset;
+}
+li#seleccionado {
+
+    background-color: rgb(153, 91, 233);
+
+}
+
 #menu {
 
-    justify-content: center ;
-    display: block;
-
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .h2 {
@@ -59,15 +89,74 @@ body {
     display: flex;
 }
 
-.p  {
+.p {
 
     color: rgb(0, 0, 0);
-    font-size:large;
+    font-size: large;
     font-style: unset;
     padding-left: 2%;
     padding-right: 8%;
     text-align: justify;
 
+
+}
+
+.punto {
+
+    font-size: x-large;
+    color: black;
+    padding-left: 2%;
+    padding-right: 8%;
+    text-align: justify;
+}
+
+#fotomapa {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 20%;
+    height: 20%;
+}
+
+#fotomapa2 {
+    padding-right: 10%;
+    padding-left: auto;
+    padding-top: 2%;
+    width: 30%;
+    height: 30%;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+#fotoseraph  {
+    padding-right: 5%;
+    padding-left: auto;
+    padding-top: 2%;
+    width: 20%;
+    height: 20%;
+    align-self: flex-end;
+    justify-content: flex-end;
+
+}
+
+.p2 {
+
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-style: unset;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    align-self: flex-start;
+    justify-content: center;
+
+}
+
+#textofoto {
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 
 }
 
@@ -78,11 +167,12 @@ body {
     display: block;
 }
 
+
 #laFoto {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
 #foto {
@@ -90,6 +180,15 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+
+#victory {
+
+    display:flex ;
+    align-items: center;
+    justify-content:center ;
+    align-content: center;
 
 }
 
@@ -122,6 +221,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center ;
+    justify-content: center;
 
 }
