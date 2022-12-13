@@ -22,32 +22,34 @@ body {
 .title {
 
     color: aliceblue;
-    font-family:fantasy;
+    font-family: fantasy;
     font-size: 15px;
     align-items: center;
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: infinite;
 
-        animation-duration: 5s;
-        animation-name: slidein;
-    }      
-      @keyframes slidein {
-        from {
-          margin-left: 50%;
-          width: 250%
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-        75% {
-            font-size: 250%;
-            margin-left: 25%;
-            width: 150%;
-          }
-          
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 50%;
+        width: 250%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    75% {
+        font-size: 250%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
 }
 
 .nombre {
@@ -126,6 +128,7 @@ li {
 
     box-shadow: 5px 5px rgba(54, 52, 52, 0.692) inset;
 }
+
 li#seleccionado {
 
     background-color: rgb(153, 91, 233);
@@ -163,6 +166,12 @@ li#seleccionado {
 
 }
 
+p::first-letter {
+    font-size: 2em;
+    color: rgb(16, 6, 20);
+    font-style: italic;
+}
+
 .punto {
 
     font-size: x-large;
@@ -190,12 +199,12 @@ li#seleccionado {
     justify-content: flex-end;
 }
 
-#fotoseraph  {
+#fotoseraph {
     padding-right: 5%;
     padding-left: auto;
     padding-top: 2%;
-    width: 20%;
-    height: 20%;
+    width: 40vw;
+    height: 40vh;
     align-self: flex-end;
     justify-content: flex-end;
 
@@ -216,7 +225,7 @@ li#seleccionado {
 
 #textofoto {
 
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
 
@@ -247,9 +256,9 @@ li#seleccionado {
 
 #victory {
 
-    display:flex ;
+    display: flex;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
     align-content: center;
 
 }
@@ -284,5 +293,82 @@ li#seleccionado {
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
+
+}
+
+
+article:hover {
+
+    background-color: rgba(144, 88, 170, 0.788);
+}
+
+.efecto {
+
+    letter-spacing: -2px;
+    text-align: center;
+    color: rgb(233, 206, 231);
+    text-shadow: 0 0 5px #fff, 0 0 10px rgb(103, 88, 105), 0 0 15px rgb(58, 54, 58), 0 0 20px #079cf2b6, 0 0 25px #31047996;
+    -webkit-text-fill-color: #5936f5;
+    -webkit-text-stroke-color: #1b268d;
+    -webkit-text-stroke-width: 0.2px;
+    font-size: 30px;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+#personajesimagen {
+
+    width: 20vw;
+    height: 20vh;
+    align-items:flex-end;
+    object-fit:contain;
+    object-position: 50% bottom;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5 ease;
+    z-index: 0;
+
+}
+
+#div20 {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5 ease;
+    background-color: transparent;
+}
+
+.p20 {
+    text-align: center;
+    justify-content: center;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5 ease;
+    background-color: transparent;
+    color: rgb(48, 6, 82);
+    text-shadow: 1px 1px rgb(62, 30, 71);
+    color:black;
+    font-size: calc(1.2em + 1vw + 1vh);
+    font-weight: bold;
+    z-index: 2;
+}
+
+.primerbloquepj{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
 
 }
