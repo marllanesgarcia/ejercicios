@@ -23,8 +23,31 @@ body {
 
     color: aliceblue;
     font-family:fantasy;
-    font-size: 35px;
+    font-size: 15px;
     align-items: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+
+        animation-duration: 5s;
+        animation-name: slidein;
+    }      
+      @keyframes slidein {
+        from {
+          margin-left: 50%;
+          width: 250%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        75% {
+            font-size: 250%;
+            margin-left: 25%;
+            width: 150%;
+          }
+          
 }
 
 .nombre {
@@ -37,8 +60,47 @@ body {
 
     width: 150px;
     height: 120px;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
 
 }
+
+@-webkit-keyframes flash {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+
+    }
+}
+
+@keyframes flash {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+
+    }
+}
+
 
 li {
 
