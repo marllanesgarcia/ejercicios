@@ -176,16 +176,16 @@ li#seleccionado {
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
-    width: 20%;
-    height: 20%;
+    width: 50vw;
+    height: 50vh;
 }
 
 #fotomapa2 {
     padding-right: 10%;
     padding-left: auto;
     padding-top: 2%;
-    width: 30%;
-    height: 30%;
+    width: 50vw;
+    height: 50vh;
     align-self: flex-end;
     justify-content: flex-end;
 }
