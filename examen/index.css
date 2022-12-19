@@ -61,3 +61,17 @@ p:nth-child(3) {
     color: rgb(212, 0, 255);
     font-style: italic; 
 }
+
+div:hover, div:active{
+
+    opacity: 1;
+    background-color: white transparent(2);;
+
+
+}
+div:active,
+div:hover {
+    opacity: 1;
+    background-color: beige;
+
+}
