@@ -30,6 +30,7 @@ img{
     align-items: center;
     object-fit: cover;
     object-position: 50% bottom;
-    transition: all 1.5;
-    -webkit-animation: all 1.5 ;
+    transition: all 1.5 ease;
+    -webkit-transition: all 1.5 ease;
+    z-index: 0;
 }
