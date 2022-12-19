@@ -69,6 +69,15 @@ div:hover, div:active{
 
 
 }
+
+@media all and (orientation:landscape) {
+    img,
+    div {
+        margin-left: calc(50vw - 35 vh);
+        width: 70vh;
+    }
+}
+
 div:active,
 div:hover {
     opacity: 1;
