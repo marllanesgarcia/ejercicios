@@ -51,6 +51,9 @@ p{
     -webkit-transition: all 1.5 ease;
     background-color: transparent;
     color: rgb(98, 0, 255);
-    
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.897);
+    font-size: calc(1.2em + 1vw + 1vh);
+    font-weight: bold;
+    z-index: 2;
 
 }
