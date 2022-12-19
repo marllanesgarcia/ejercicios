@@ -44,3 +44,13 @@ img{
     -webkit-transition: all 1.5 ease;
     z-index: 0;
 }
+
+p{
+    text-align: center;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5 ease;
+    background-color: transparent;
+    color: rgb(98, 0, 255);
+    
+
+}
